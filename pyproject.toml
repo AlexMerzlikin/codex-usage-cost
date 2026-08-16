@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-usage-cost"
+version = "0.1.0"
+description = "Generate private, local HTML dashboards and cost estimates from Codex session logs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Alex Merzlikin" }]
+keywords = ["codex", "tokens", "usage", "cost", "report", "html"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/AlexMerzlikin/codex-usage-cost"
+Source = "https://github.com/AlexMerzlikin/codex-usage-cost"
+Issues = "https://github.com/AlexMerzlikin/codex-usage-cost/issues"
+
+[project.scripts]
+codex-usage-cost = "codex_usage_cost.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+codex_usage_cost = ["prices.json"]

@@ -1,0 +1,6 @@
+{"type":"session_meta","timestamp":"2026-08-16T10:00:00Z","payload":{"id":"session-fixture","cwd":"/tmp/grave-odds","model_provider":"openai","source":"cli"}}
+{"type":"turn_context","timestamp":"2026-08-16T10:00:01Z","payload":{"model":"gpt-5.1-codex"}}
+{"type":"event_msg","timestamp":"2026-08-16T10:00:02Z","payload":{"type":"user_message","message":"inspect the project"}}
+{"type":"event_msg","timestamp":"2026-08-16T10:00:03Z","payload":{"type":"token_count","info":{"last_token_usage":{"input_tokens":1000,"output_tokens":100,"cached_input_tokens":400,"reasoning_output_tokens":20},"total_token_usage":{"input_tokens":1000,"output_tokens":100,"cached_input_tokens":400,"reasoning_output_tokens":20}}}}
+{"type":"event_msg","timestamp":"2026-08-16T10:00:04Z","payload":{"type":"token_count","info":{"last_token_usage":{"input_tokens":200,"output_tokens":30,"cache_read_input_tokens":100,"reasoning_output_tokens":5},"total_token_usage":{"input_tokens":1200,"output_tokens":130,"cached_input_tokens":500,"reasoning_output_tokens":25}}}}
+{"type":"event_msg","timestamp":"2026-08-16T10:00:05Z","payload":{"type":"token_count","info":{"last_token_usage":{"input_tokens":200,"output_tokens":30,"cache_read_input_tokens":100,"reasoning_output_tokens":5},"total_token_usage":{"input_tokens":1200,"output_tokens":130,"cached_input_tokens":500,"reasoning_output_tokens":25}}}}
