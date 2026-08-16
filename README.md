@@ -32,13 +32,6 @@ py -m pip install .
 codex-usage-cost
 ```
 
-If PowerShell blocks activation, skip it and use the environment directly:
-
-```powershell
-.\.venv\Scripts\python.exe -m pip install .
-.\.venv\Scripts\python.exe -m codex_usage_cost
-```
-
 ### macOS and Linux
 
 ```bash
