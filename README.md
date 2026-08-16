@@ -4,6 +4,8 @@ There are plenty of LLM benchmarks, but they do not show how much different mode
 
 Generate a private, self-contained HTML dashboard from your local Codex session logs. Compare token usage, estimated API costs, models, and reasoning-effort levels without uploading prompts or responses. The tool is local-first and dependency-free at runtime: it reads JSONL logs from your machine and writes reports to your machine.
 
+![Codex Usage Cost dashboard](docs/codex-usage-cost-dashboard.png)
+
 ## What it shows
 
 - Token and estimated API cost totals by day and model
